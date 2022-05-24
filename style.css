@@ -1,0 +1,54 @@
+body{
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    background-size:cover;
+}
+h1{
+    background-color:#f64d0b;
+    color:#0bb4f6;
+}
+#show_sketch{
+    float: right;
+    font-size:18px;
+    font-weight:bold;
+    color:black;
+    background-color: darkgreen;
+}
+#clear_canvas{
+    background-color:darkolivegreen;
+}
+p{
+    font-size:25px;
+}
+#score{
+    float:left;
+    font-size:25px;
+    font-weight:bold;
+    color:#1512e2;
+}
+#timer{
+    float:right;
+    font-size:25px;
+    font-weight:bold;
+    color:#1512e2;
+    
+}
+canvas 
+  {
+    border:5px yellowgreen ridge;
+    border-radius:20px;
+    animation-name:doodling;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+@keyframes doodling {
+
+  from
+   {box-shadow: 1px 1px 38px #b5b9ff;
+   }
+  to 
+  {box-shadow: 1px 1px 38px #ffb5e8;
+  }
+
+}
